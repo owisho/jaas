@@ -2,7 +2,7 @@
 <html>
   <head><title>Simple jsp page</title></head>
   <body>
-    <form action="/login.do" method="post">
+    <form action="/learnjaas/login.do" method="post">
         user:<input type="text" name="username"/>
         password:<input type="password" name="password"/>
         <input type="submit"/>

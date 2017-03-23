@@ -28,7 +28,8 @@ public class LoginServlet extends HttpServlet{
 		System.out.println("password="+password);
 		LoginContext ctx = null;
 		try {
-			ctx = new LoginContext("SimpleLogin", null, new PassiveCallbackHandler(userName,password),new ConfigFile(new URI("file:E:/learn/learnjaas/src/main/java/learnjaas/console/simple.conf")));
+//			ctx = new LoginContext("SimpleLogin", null, new PassiveCallbackHandler(userName,password),new ConfigFile(new URI("file:E:/learn/learnjaas/src/main/java/learnjaas/console/simple.conf")));
+			ctx = new LoginContext("SimpleLogin",new PassiveCallbackHandler(userName,password));
 			ctx.login();
 		} catch (LoginException e) {
 			//TODO 需要特殊处理

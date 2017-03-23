@@ -8,7 +8,7 @@
 
 	<servlet>
 		<servlet-name>loginServlet</servlet-name>
-		<servlet-class>com.lemon.jaas.web.LoginServlet</servlet-class>
+		<servlet-class>learnjaas.web.LoginServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
