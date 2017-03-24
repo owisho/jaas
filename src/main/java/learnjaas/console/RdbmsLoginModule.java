@@ -70,9 +70,6 @@ public class RdbmsLoginModule implements LoginModule{
 
 	private boolean rdbmsValidate(String username, String password) {
 		//TODO 使用jdbc进行用户名密码校验
-		System.out.println(url);
-		System.out.println(driverClass);
-		System.out.println(debug);
 		return true;
 	}
 
