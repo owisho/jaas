@@ -1,2 +1,0 @@
-实现了java.security.Principal接口的类，
-用于使用tomcat JAASRealm 进行验证是判断用户Principal和角色Principal

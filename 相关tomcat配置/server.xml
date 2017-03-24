@@ -83,7 +83,7 @@
 				<Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/>
 			</Realm>
 			
-			<Realm appName="SimpleLogin" className="org.apache.catalina.realm.JAASRealm" debug="99" roleClassNames="learnjaas.tomcat.principal.FooRole" userClassNames="learnjass.tomcat.principal.FooUser">	
+			<Realm appName="SimpleLogin" className="org.apache.catalina.realm.JAASRealm" debug="99" roleClassNames="com.sun.security.auth.UserPrincipal" userClassNames="com.sun.security.auth.UserPrincipal">	
 			</Realm>
 
 			<Host appBase="webapps" autoDeploy="true" name="localhost" unpackWARs="true">
